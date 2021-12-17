@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "serve:prod": "npm run build && npm run serve -s dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "devextreme": "^21.2.4",
+    "devextreme-vue": "^21.2.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
